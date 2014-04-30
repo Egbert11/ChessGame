@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1118</width>
+    <height>629</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1118</width>
+    <height>629</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1118</width>
+    <height>629</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>五子棋游戏</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>1113</width>
+     <height>618</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1113</width>
+     <height>618</height>
+    </size>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>20</y>
+      <width>60</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>60</width>
+      <height>16</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>60</width>
+      <height>16</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>房间列表：</string>
+    </property>
+   </widget>
+   <widget class="QTreeWidget" name="room">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>44</y>
+      <width>219</width>
+      <height>277</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>219</width>
+      <height>277</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>219</width>
+      <height>277</height>
+     </size>
+    </property>
+    <column>
+     <property name="text">
+      <string>大厅</string>
+     </property>
+    </column>
+    <item>
+     <property name="text">
+      <string>房间1</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>桌子1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>桌子2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>桌子3</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>桌子4</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>桌子5</string>
+      </property>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>房间2</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>桌子1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>桌子2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>桌子3</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>桌子4</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>桌子5</string>
+      </property>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>房间3</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>桌子1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>桌子2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>桌子3</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>桌子4</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>桌子5</string>
+      </property>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>房间4</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>桌子1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>桌子2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>桌子3</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>桌子4</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>桌子5</string>
+      </property>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>房间5</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>桌子1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>桌子2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>桌子3</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>桌子4</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>桌子5</string>
+      </property>
+     </item>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>333</y>
+      <width>60</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>60</width>
+      <height>16</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>60</width>
+      <height>16</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>群聊信息：</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="groupTalk">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>357</y>
+      <width>219</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>219</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>219</width>
+      <height>200</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="score_player1">
+    <property name="geometry">
+     <rect>
+      <x>241</x>
+      <y>300</y>
+      <width>36</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>分数：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="roomName">
+    <property name="geometry">
+     <rect>
+      <x>241</x>
+      <y>16</y>
+      <width>84</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>暂未进入房间：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player1">
+    <property name="geometry">
+     <rect>
+      <x>241</x>
+      <y>247</y>
+      <width>84</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>84</width>
+      <height>23</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>84</width>
+      <height>23</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 13pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>玩家1：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="score_player2">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>300</y>
+      <width>36</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>分数：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player2">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>247</y>
+      <width>84</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>84</width>
+      <height>23</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>84</width>
+      <height>23</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 13pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>玩家2：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>924</x>
+      <y>26</y>
+      <width>60</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>积分排行：</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="scoreRank">
+    <property name="geometry">
+     <rect>
+      <x>924</x>
+      <y>56</y>
+      <width>181</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>181</width>
+      <height>251</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>181</width>
+      <height>251</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>924</x>
+      <y>325</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>一对一聊天：</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="singleTalk">
+    <property name="geometry">
+     <rect>
+      <x>924</x>
+      <y>355</y>
+      <width>181</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>181</width>
+      <height>192</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>181</width>
+      <height>192</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="singleEdit">
+    <property name="geometry">
+     <rect>
+      <x>925</x>
+      <y>567</y>
+      <width>132</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="singleSend">
+    <property name="geometry">
+     <rect>
+      <x>1063</x>
+      <y>566</y>
+      <width>41</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>41</width>
+      <height>23</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>41</width>
+      <height>23</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>发送</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="start">
+    <property name="geometry">
+     <rect>
+      <x>241</x>
+      <y>571</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>开始</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="giveUp">
+    <property name="geometry">
+     <rect>
+      <x>376</x>
+      <y>571</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>认输</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="undo">
+    <property name="geometry">
+     <rect>
+      <x>511</x>
+      <y>571</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>悔棋</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="again">
+    <property name="geometry">
+     <rect>
+      <x>646</x>
+      <y>571</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>再来一局</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="left">
+    <property name="geometry">
+     <rect>
+      <x>781</x>
+      <y>571</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>离开</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="groupEdit">
+    <property name="geometry">
+     <rect>
+      <x>13</x>
+      <y>571</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>161</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>161</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="groupSend">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>570</y>
+      <width>50</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>22</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>22</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>发送</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

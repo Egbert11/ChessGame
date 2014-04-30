@@ -1,0 +1,9 @@
+<RCC>
+  <qresource>
+    <file>../images/black.png</file>
+    <file>../images/white.png</file>
+    <file>../images/black_before.png</file>
+    <file>../images/white_before.png</file>
+    <file>../images/chessboard.png</file>
+  </qresource>
+</RCC>

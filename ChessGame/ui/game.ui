@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1130</width>
+    <height>629</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1130</width>
+    <height>629</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1130</width>
+    <height>629</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>五子棋游戏</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>1130</width>
+     <height>618</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1130</width>
+     <height>618</height>
+    </size>
+   </property>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>10</y>
+      <width>1101</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_6">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;华文琥珀&quot;;
+color: rgb(170, 170, 255);</string>
+         </property>
+         <property name="text">
+          <string>房间列表：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTreeWidget" name="room">
+         <property name="minimumSize">
+          <size>
+           <width>219</width>
+           <height>277</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>219</width>
+           <height>277</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 11pt &quot;华文细黑&quot;;
+color: rgb(170, 170, 255);</string>
+         </property>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+         <item>
+          <property name="text">
+           <string>大厅</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>房间1</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>桌子1</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>桌子2</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>桌子3</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>桌子4</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>桌子5</string>
+            </property>
+           </item>
+          </item>
+          <item>
+           <property name="text">
+            <string>房间2</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>桌子1</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>桌子2</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>桌子3</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>桌子4</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>桌子5</string>
+            </property>
+           </item>
+          </item>
+          <item>
+           <property name="text">
+            <string>房间3</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>桌子1</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>桌子2</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>桌子3</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>桌子4</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>桌子5</string>
+            </property>
+           </item>
+          </item>
+          <item>
+           <property name="text">
+            <string>房间4</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>桌子1</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>桌子2</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>桌子3</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>桌子4</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>桌子5</string>
+            </property>
+           </item>
+          </item>
+          <item>
+           <property name="text">
+            <string>房间5</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>桌子1</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>桌子2</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>桌子3</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>桌子4</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>桌子5</string>
+            </property>
+           </item>
+          </item>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;华文琥珀&quot;;
+color: rgb(170, 170, 255);</string>
+         </property>
+         <property name="text">
+          <string>群聊信息：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="groupTalk">
+         <property name="minimumSize">
+          <size>
+           <width>219</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>219</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 11pt &quot;华文细黑&quot;;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLineEdit" name="groupEdit"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="groupSend">
+           <property name="minimumSize">
+            <size>
+             <width>50</width>
+             <height>22</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>50</width>
+             <height>22</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 12pt &quot;微软雅黑&quot;;
+color: rgb(24, 27, 99);</string>
+           </property>
+           <property name="text">
+            <string>发送</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <item>
+            <widget class="QLabel" name="roomName">
+             <property name="minimumSize">
+              <size>
+               <width>80</width>
+               <height>51</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>80</width>
+               <height>51</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 75 14pt &quot;微软雅黑&quot;;
+color: rgb(0, 0, 127);</string>
+             </property>
+             <property name="text">
+              <string>暂未进
+入房间</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="inforShow">
+             <property name="minimumSize">
+              <size>
+               <width>80</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>80</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(255, 0, 0);
+font: 75 12pt &quot;幼圆&quot;;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>116</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="player1">
+             <property name="minimumSize">
+              <size>
+               <width>84</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>84</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 13pt &quot;微软雅黑&quot;;
+color: rgb(170, 85, 255);</string>
+             </property>
+             <property name="text">
+              <string>玩家1：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>196</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="score_player1">
+             <property name="styleSheet">
+              <string notr="true">font: 12pt &quot;华文琥珀&quot;;
+color: rgb(170, 170, 255);</string>
+             </property>
+             <property name="text">
+              <string>分数：</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QFrame" name="chessBoard">
+           <property name="minimumSize">
+            <size>
+             <width>491</width>
+             <height>491</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>491</width>
+             <height>491</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+#chessBoard {border-image: url(:/images/chessboard.png);}</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <item>
+            <spacer name="verticalSpacer_3">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>244</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="player2">
+             <property name="minimumSize">
+              <size>
+               <width>84</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>84</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 13pt &quot;微软雅黑&quot;;
+color: rgb(170, 85, 255);</string>
+             </property>
+             <property name="text">
+              <string>玩家2：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_4">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>18</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="score_player2">
+             <property name="styleSheet">
+              <string notr="true">font: 12pt &quot;华文琥珀&quot;;
+color: rgb(170, 170, 255);</string>
+             </property>
+             <property name="text">
+              <string>分数：</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>28</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QPushButton" name="start">
+           <property name="styleSheet">
+            <string notr="true">font: 12pt &quot;微软雅黑&quot;;
+color: rgb(24, 27, 99);</string>
+           </property>
+           <property name="text">
+            <string>开始</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="giveUp">
+           <property name="styleSheet">
+            <string notr="true">font: 12pt &quot;微软雅黑&quot;;
+color: rgb(24, 27, 99);</string>
+           </property>
+           <property name="text">
+            <string>认输</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="undo">
+           <property name="styleSheet">
+            <string notr="true">font: 12pt &quot;微软雅黑&quot;;
+color: rgb(24, 27, 99);</string>
+           </property>
+           <property name="text">
+            <string>悔棋</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="again">
+           <property name="styleSheet">
+            <string notr="true">font: 12pt &quot;微软雅黑&quot;;
+color: rgb(24, 27, 99);</string>
+           </property>
+           <property name="text">
+            <string>再来一局</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="left">
+           <property name="styleSheet">
+            <string notr="true">font: 12pt &quot;微软雅黑&quot;;
+color: rgb(24, 27, 99);</string>
+           </property>
+           <property name="text">
+            <string>离开</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="minimumSize">
+            <size>
+             <width>93</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>77</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 12pt &quot;华文琥珀&quot;;
+color: rgb(170, 170, 255);</string>
+           </property>
+           <property name="text">
+            <string>积分排行：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="bgMusic">
+           <property name="styleSheet">
+            <string notr="true">font: 9pt &quot;微软雅黑&quot;;
+color: rgb(24, 27, 99);</string>
+           </property>
+           <property name="text">
+            <string>关闭背景音乐</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QListWidget" name="scoreRank">
+         <property name="minimumSize">
+          <size>
+           <width>181</width>
+           <height>251</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>181</width>
+           <height>251</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 14pt &quot;华文新魏&quot;;
+color: rgb(0, 85, 0);</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;华文琥珀&quot;;
+color: rgb(170, 170, 255);</string>
+         </property>
+         <property name="text">
+          <string>一对一聊天：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="singleTalk">
+         <property name="minimumSize">
+          <size>
+           <width>181</width>
+           <height>192</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>181</width>
+           <height>192</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 11pt &quot;华文细黑&quot;;</string>
+         </property>
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'华文细黑'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLineEdit" name="singleEdit"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="singleSend">
+           <property name="minimumSize">
+            <size>
+             <width>41</width>
+             <height>23</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>41</width>
+             <height>23</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 12pt &quot;微软雅黑&quot;;
+color: rgb(24, 27, 99);</string>
+           </property>
+           <property name="text">
+            <string>发送</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
